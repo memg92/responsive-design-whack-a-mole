@@ -1,6 +1,8 @@
 /* Write your CSS here. */
 .pf {
   display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .wgs {
@@ -12,12 +14,11 @@
 }
 
 .wgs__mole-head {
-  height: ;
   position: absolute;
   width: 188px;
   left: 55px;
   transition: margin-top;
-  transition-duration: .25s;
+  transition-duration: 0.25s;
 }
 
 .wgs__dirt-pile {
